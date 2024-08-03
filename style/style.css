@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.main-body-bg{
+    background-color: rgba(0, 0, 0, 1);
+}
+.main-body-width{
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* header-start */
+
+.nav-containt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 0px;
+}
+.fitness-h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+    color: rgba(230, 83, 60, 1);
+}
+.never-menu{
+    font-size:18px ;
+    font-weight:600 ;
+    line-height:21.6px ;
+    color:rgba(255, 255, 255, 1) ;
+    text-decoration: none;
+    margin: 0px 12px;
+    padding: 8px, 20px, 8px, 20px;
+    border-radius: 46px;   
+}
+.Home{
+    background-color: rgba(230, 83, 60, 1) ;
+    
+    
+}
+.nav-item-box{
+    border: 1px dotted rgba(255, 255, 255, 0.907);
+    border-radius: 34px;
+    padding: 4px;
+}
+.banner-title{
+    font-size:78px ;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    line-height: 93.6px;
+
+}
+.banner-title-span{
+    font-weight: 400;
+    font-style: italic;
+}
+.banner-p{
+    font-size:16px ;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.banner-button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.join{
+    border-radius: ;
+    background-color: rgba(230, 83, 60, 1) ;
+}
+
+
+.banne-flex {
+    display: flex;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    background-image: url(/images/Images\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+    width: 50%;
+ 
+}
+.banner-top{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    border-radius: 12px;
+    border: 1px dotted rgba(255, 255, 255, 0.1);
+   
+}
+.banner-bottom{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    border-radius: 12px;
+    border: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+
+/* header-end */
+
+
+
