@@ -7,7 +7,7 @@ body{
 }
 
 .main-body-bg{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(17, 17, 17, 1)
 }
 .main-body-width{
     max-width: 1440px;
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 57px 0px;
+    padding: 57px 0px 32px;
 }
 .fitness-h2{
     font-size: 36px;
@@ -35,18 +35,21 @@ body{
     color:rgba(255, 255, 255, 1) ;
     text-decoration: none;
     margin: 0px 12px;
-    padding: 8px, 20px, 8px, 20px;
     border-radius: 46px;   
+}
+.nav-item {
+    display: inline;
 }
 .Home{
     background-color: rgba(230, 83, 60, 1) ;
-    
+    padding: 8px, 20px, 8px, 20px;
+    border-radius: 46px;
     
 }
 .nav-item-box{
     border: 1px dotted rgba(255, 255, 255, 0.907);
     border-radius: 34px;
-    padding: 4px;
+    /* padding: 4px; */
 }
 .banner-title{
     font-size:78px ;
@@ -65,17 +68,26 @@ body{
     color: rgba(255, 255, 255, 0.5);
     line-height: 24px;
     letter-spacing: 0.5px;
+    padding: 28px 0px;
 }
 .banner-button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    gap: 10px;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    color: rgba(255, 255, 255, 1);
-    
+    color:rgba(255, 255, 255, 1);
+    cursor: pointer;
+    background-color: rgba(119, 119, 119, 0);
+    border: 1px solid ;
 }
 .join{
-    border-radius: ;
-    background-color: rgba(230, 83, 60, 1) ;
+    background-color: rgba(230, 83, 60, 1); 
+    border: 1px solid rgba(230, 83, 60, 1);
+    margin-right: 14px;
 }
 
 
@@ -86,12 +98,19 @@ body{
     width: 50%;
 }
 .banner-right{
-    background-image: url(/images/Images\ 2.png);
+    width: 50%;
+}
+.banner-left-containt{
+    width: 600px;
+}
+.banner-right-containt{
+    background-image: url(../images/Images\ 2.png);
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
-    height: 100vh;
-    width: 50%;
+    height: 580px;
+
+   
  
 }
 .banner-top{
