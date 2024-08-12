@@ -58,9 +58,13 @@ body{
     border: 1px dotted #ffffff3d;
     border-radius: 34px;
     padding: 12px 0px;
-    width: 78%;
+    width: 70%;
 }
-
+.bars-icon {
+    color: #ffffffad;
+    font-size: 24px;
+    display: none;
+}
 /* Banner-section */
 
 .banner-title{
@@ -155,7 +159,10 @@ body{
     display: flex;
     align-items: center;
 }
-
+.play-icon{
+    color: #fff;
+    margin: 7px 0px 0px 10px;
+}
 .doth{
     width: 30px;
     height: 30px;
@@ -168,7 +175,7 @@ body{
 
 /* .........main-body.......... */
 
-/* First-section */
+/* First-Section-  Change Your Habits */
 
 .title-box{
     text-align: center;
@@ -222,7 +229,7 @@ body{
     padding: 0px 30px;
 }
 
-/* .........Second-Section.......... */
+/* .........Second-Section-Run an Extra Mile Easily.......... */
 
 .habits-section {
     display: flex;
@@ -251,7 +258,7 @@ body{
     margin-right: 35px;
 }
 
-/* .........Third-Section........... */
+/* .........Third-Section-Trainings and Exercises........... */
 
 .Trainings-title-p{
     padding-top: 14px;
@@ -259,8 +266,76 @@ body{
 .Trainings-text-box{
     width: 45%;
 }
+.training-box{
+    padding: 58px 0px 88px;
+}
+.training-img-section-top{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+.training-img-section-bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr;
+}
+.img-width{
+    width: 100%;
+    height: 201.5px;
+}
+.training-containt{
+    position: relative;
+}
+.text-containt{
+    height: 201.5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.text-containt-one {
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.text-containt-two {
+    background: rgba(255, 0, 0, 0.3);
+}
+.text-containt-three {
+    background: rgba(0, 0, 0, 0.5);
+}
+.text-containt-four {
+    background: rgba(0, 0, 0, 0.5);
+}
+.text-containt-five {
+    background: rgba(66, 255, 0, 0.3);
+}
+.text-containt-six {
+    background: rgba(0, 71, 255, 0.3);
+}
+.leg-press{
+    padding: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+.leg-press-one {
+    position: absolute;
+    bottom: 0;
+    color: rgba(0, 0, 0, 1);
+}
+.leg-press-three {
+    position: absolute;
+    bottom: 0;
+}
+.leg-press-four {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.leg-press-five, .leg-press-six {
+    position: absolute;
+    bottom: 0;
+}
 
-/* .........Fourth-section........ */
+/* .........Fourth-section-BMI Calculator........ */
 
 .BMI-Calculator-text-box{
    width: 671px;
@@ -304,16 +379,40 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    display: flex;
+    justify-content: space-between;
 }
 .activity {
     width: 70%;
     margin-top: 13px;
 }
-
+.span{
+    cursor: pointer;
+    /* padding: 13px 20px; */
+}
 .Calculator-button {
     background-color: rgba(230, 83, 60, 1);
     margin: 34px 0px;
     border: 1px solid rgba(230, 83, 60, 1);
+}
+table{
+    border-collapse: collapse;
+    width: 310px;
+    margin-top: 52px;
+}
+td , th{
+    border: 1px solid #ffffff4a;
+    padding: 13px 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color:rgba(255, 255, 255, 0.5);
+}
+th{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color:rgba(255, 255, 255, 1);
 }
 
 /* .........Fifth-section-Meet Our Team........ */

@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link rel="stylesheet" href="./style/style.css">
         <title>Fitness</title>
     </head>
@@ -24,15 +25,14 @@
                                 <h2 class="fitness-h2">Fitness</h2> 
                             </div>
                             <div class="nav-right">
-
                                 <ul class="nav-item-box">
-                                    <li class="nav-item Home"><a class="nave-menu" href="#">Home</a></li>
+                                    <li class="nav-item Home"><a class="nave-menu" href="#"><b>Home</b></a></li>
                                     <li class="nav-item"><a class="nave-menu" href="#">Service</a></li>
                                     <li class="nav-item"><a class="nave-menu" href="#">Contact</a></li>
                                     <li class="nav-item"><a class="nave-menu" href="#">About</a></li>
-                                </ul>
-                                
+                                </ul> 
                             </div>
+                            <a class="bars-icon" href="#"><i class="fa-solid fa-bars"></i></a>
                         </section>
                     </nav>
                     <section>
@@ -58,7 +58,9 @@
                                         <p class="Free-Workout">Free Workout Videos</p>
                                     </div>
                                     <div class="banner-bottom">
-                                        <div class="doth"></div>
+                                        <div class="doth">
+                                            <i class="fa-solid fa-play play-icon"></i>
+                                        </div>
                                         <div class="Video">
                                             <h2 class="fife-thousant">300 +</h2>
                                             <p class="Free-Workout">Video tutorial</p> 
@@ -128,6 +130,60 @@
                             <h2 class="title-h2 Trainings-title-h2">Trainings and Exercises</h2>
                             <p class="title-p Trainings-title-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                         </div>
+                        <div class="training-box">
+                            <div class="training-img-section-top">
+                                <div class="training-containt">
+                                    <div class="img-containt-one">
+                                        <img class="img-width" src="./images/exercise1.jpg">
+                                    </div>
+                                    <div class="text-containt text-containt-one">
+                                        <p class="leg-press leg-press-one">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                                <div class="training-containt">
+                                    <div class="img-containt-two">
+                                        <img class="img-width" src="./images/exercise2.png">
+                                    </div>
+                                    <div class="text-containt text-containt-two">
+                                        <p class="leg-press leg-press-two">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                                <div class="training-containt">
+                                    <div class="img-containt-three">
+                                        <img class="img-width" src="./images/exercise3.png">
+                                    </div>
+                                    <div class="text-containt text-containt-three">
+                                        <p class="leg-press leg-press-three">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="training-img-section-bottom">
+                                <div class="training-containt">
+                                    <div class="img-containt-four">
+                                        <img class="img-width" src="./images/exercise4.png">
+                                    </div>
+                                    <div class="text-containt text-containt-four">
+                                        <p class="leg-press leg-press-four">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                                <div class="training-containt">
+                                    <div class="img-containt-five">
+                                        <img class="img-width" src="./images/exercise5.jpg">
+                                    </div>
+                                    <div class="text-containt text-containt-five">
+                                        <p class="leg-press leg-press-five">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                                <div class="training-containt">
+                                    <div class="img-containt-six">
+                                        <img class="img-width" src="./images/exercise6.jpg">
+                                    </div>
+                                    <div class="text-containt text-containt-six">
+                                        <p class="leg-press leg-press-six">Leg Press: Works the quadriceps and glutes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                     <!-- .........Fourth-section-BMI Calculator........  -->
@@ -148,7 +204,33 @@
                     <div class="BMI-flex">
                         <div class="Calculator-left">
                             <h3 class="Calculator-h3">BMI Calculator Chart</h3>
-
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>BMI</th>
+                                        <th>Weight Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Below 18.5</td>
+                                        <td>Underweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18.5 - 24.9</td>
+                                        <td>Healthy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25.0 - 29.9</td>
+                                        <td>Overweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30.0 - and Above</td>
+                                        <td>Obese</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot></tfoot>
+                            </table>
                         </div>
                         <div class="Calculator-right">
                             <h3 class="Calculator-h3">Calculate your BMI</h3>
@@ -158,9 +240,9 @@
                                     <p class="information">Height/cm</p>
                                     <p class="information">Weight/kg</p>
                                     <p class="information">Age</p>
-                                    <p class="information">Sex <span class=""></span></p>
+                                    <p class="information">Sex <span class="span sex-span"><i class="fa-solid fa-angle-down"></i></span></p>
                                 </div>
-                                <p class="information activity">Select an activity factor <span class=""> </span></p>
+                                <p class="information activity">Select an activity factor <span class="span information-span"><i class="fa-solid fa-angle-down"></i> </span></p>
                                 <button class="banner-button Calculator-button">Calculator</button>   
                             </div>
                         </div>
@@ -175,7 +257,7 @@
             <section class="main-body-width">
                 <section>
                     <div class="BMI-Calculator-text-box Team">
-                        <h2 class="title-h2 Team-h2">BMI Calculator</h2>
+                        <h2 class="title-h2 Team-h2">Meet Our Team</h2>
                         <p class="title-p Team-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                     </div>
                     <div class="Team-grid">
